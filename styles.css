@@ -455,14 +455,11 @@ a:hover {
     display: block;
     flex-direction: column;
     font-size: 1.4rem;
-    align-items: center;
-    justify-content: center;
+
   }
   
   .bericht {
-    align-items: center;
     margin-top: 2rem;
-    max-width: 20rem;
-    
+    max-width: 40rem;
   }
 }
