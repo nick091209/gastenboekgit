@@ -200,17 +200,15 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4rem;
-  margin-left: 15rem;
   
 }
-
-
 
 .bericht {
   display: flex;
   flex-direction: column;
   flex-basis: 33%;
   max-width: 33%;
+  align-items: center;
   height: auto;
   margin-top: 2rem;
   overflow: auto;
@@ -448,5 +446,23 @@ a:hover {
 
   .test {
     width: 6.416rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .berichten {
+    background-color: whitesmoke;
+    display: block;
+    flex-direction: column;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bericht {
+    align-items: center;
+    margin-top: 2rem;
+    max-width: 20rem;
+    
   }
 }

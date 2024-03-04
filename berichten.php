@@ -9,10 +9,8 @@ if ($conn->connect_error) {
 if (isset($_POST['delete_message'])) {
     $message_id = $_POST['message_id'];
 
-    // Check if the user is logged in before accessing $_SESSION['username']
     if(isset($_SESSION['username'])) {
         $username = $_SESSION['username'];
-        // Check if the user is "admin" to allow deletion of all messages
         if ($username === "admin") {
             $stmt = $conn->prepare("DELETE FROM berichten WHERE id = ?");
             $stmt->bind_param("i", $message_id);
@@ -28,7 +26,6 @@ if (isset($_POST['delete_message'])) {
             echo "Error deleting message: " . $conn->error;
         }
     } else {
-        // If the user is not logged in, display an error message or redirect them to the login page
         echo "You need to be logged in to delete messages.";
     }
 }

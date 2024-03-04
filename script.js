@@ -5,12 +5,10 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
 
-  // Open the login modal
 function openLoginModal() {
   document.getElementById('loginModal').style.display = 'block';
 }
 
-// Close the login modal
 function closeLoginModal() {
   document.getElementById('loginModal').style.display = 'none';
 }
