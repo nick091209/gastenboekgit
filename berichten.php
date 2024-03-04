@@ -38,7 +38,8 @@ if (isset($_POST['delete_message'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gastenboek</title>
+    <title>Gastenboek | Berichten</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
 

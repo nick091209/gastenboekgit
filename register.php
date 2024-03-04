@@ -6,7 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <title>Document</title>
+  <title>Gastenboek | Register</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="styles.css">
 </head>
 
